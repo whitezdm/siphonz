@@ -1,0 +1,39 @@
+{
+    "server": {
+        "stream": [{
+                "listen": [
+                    6100, 6101
+                ],
+                "routes": [{
+                        "handler": "tunnel_proxy",
+                        "client": "5f092b7ca8ccd2992cde0817ed0b7e66",
+                        "address": "127.0.0.1:8080"
+                    }
+                ],
+                "filters": [{
+                        "handler": "remote_ip",
+                        "values": [
+                            "opschina.top",
+                            "www.opschina.top"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "access": {
+        "listen": [
+            6200, 6201
+        ],
+        "clients": {
+            "5f092b7ca8ccd2992cde0817ed0b7e66": {
+                "valid": true
+            }
+        }
+    },
+    "manage": {
+        "listen": [
+            6300, 6301
+        ]
+    }
+}
