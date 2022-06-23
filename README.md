@@ -8,12 +8,12 @@ Siphon是一个功能强大的隧道代理服务器，可以将提供各种内�
 4、现有企业内部系统上云，或与云上系统互动等。  
 ## 原理图
 下图是反向代理服务器的原理图，如nginx等：  
-![image](https://github.com/whitezdm/siphon/blob/main/images/reverse_proxy.png)
-1、用户发送请求到反向代理服务。
-2、反向代理服务将请求转发到具体服务来相应请求。
-3、发现代理服务是可以访问到具体服务，相互之间是互通的。  
-如果反向代理服务器无法直接访问到具体服务，那就需要使用到隧道代理服务。
-![image](https://github.com/whitezdm/siphon/blob/main/images/reverse_proxy.png)
+![image](https://github.com/whitezdm/siphon/blob/main/images/reverse_proxy.png)  
+1、用户发送请求到反向代理服务。  
+2、反向代理服务将请求转发到具体服务来相应请求。  
+3、发现代理服务是可以访问到具体服务，相互之间是互通的。    
+如果反向代理服务器无法直接访问到具体服务，那就需要使用到隧道代理服务。  
+![image](https://github.com/whitezdm/siphon/blob/main/images/tunnel_proxy.png)  
 
 ## 简单入门使用
 
