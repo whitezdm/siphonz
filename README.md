@@ -7,6 +7,7 @@ Siphon是一个功能强大的隧道代理服务器，可以将提供各种内�
 3、小型企业低成本部署企业产品与服务。  
 4、现有企业内部系统上云，或与云上系统互动等。  
 ## 原理图
+![image](https://github.com/whitezdm/siphon/blob/main/images/reverse_proxy.png)
 
 ## 简单入门使用
 
