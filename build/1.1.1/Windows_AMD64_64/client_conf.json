@@ -1,0 +1,13 @@
+{
+    "client": {
+        "id": "5f092b7ca8ccd2992cde0817ed0b7e66"
+    },
+    "server": {
+        "address": "127.0.0.1:6200"
+    },
+    "manage": {
+        "listen": [
+            6400, 6401
+        ]
+    }
+}
