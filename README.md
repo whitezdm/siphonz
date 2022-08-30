@@ -46,13 +46,13 @@ server_conf.json
 
 {
     "server": {                                    //server节点定义，对外提供的各种服务，如tcp、http等
-        "tcp": {                                   //tcp定义一个tcp类型的服务，这是一个集合可以定义多个tcp服务
+        "tcp": {                                   //tcp定义一个tcp类型的服务，可以定义多个tcp服务
             "srv0": {                              //tcp服务的名称
                 "listen": [                        //服务监听的端口，支持ipv4和ipv6
                     "6100", "[::]:6100"
                 ],
                 "routes": [{                       //routes定义了链接的路由处理和转发逻辑
-                        "handler": "tunnel_proxy", //这里定义了一个tunnel_proxy的处理，表示将请求转发到client
+                        "handler": "tunnel_proxy", //这里定义了一个隧道转发的处理，将请求转发到client
                         "client": "5f092b7ca8ccd2992cde0817ed0b7e66",   //转发的client的id
                         "address": "127.0.0.1:80"  //转到的client上的请求地址
                     }
@@ -95,7 +95,10 @@ client_conf.json
 ## 特性和核心功能清单
 
 ## 支持平台与形式
-
+	|  操作系统   | CPU   | 位数   |
+	|  ----  	  | ----  |  ----  |
+	| windows  | x86_64 |   64  |
+	| linux | x86_64|64|
 ## 其他
 开发语言为c++&c混合。原则上各种平台是都OK的。  
 目前是以独立服务形式，提供了windows_x64、linux_x64的版本，其他的平台的版本陆续会提供。  
@@ -106,5 +109,5 @@ client_conf.json
 
 ## 联系方式 
 E-mail：siphonz@hotmail.com  
-wechat：siphonz 
+wechat：siphonz   
 QQ群：579270417
