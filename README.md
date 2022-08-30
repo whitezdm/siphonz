@@ -29,13 +29,13 @@ Siphonz是一个功能强大的隧道代理服务器，可以将提供各种内�
 ## 简单入门使用
 	首先我们需要有一台能够外网访问的服务器，作为我们访问的入口server端，其他的在任何位置，可以访问到server端的设备都可以作为client端来转发服务。
 1、server端  
-	
-	下载对应的操作系统支持的server程序，默认配置文件为server_conf.json，与server应用同目录，执行server即可。  
-	
+>	
+>下载对应的操作系统支持的server程序，默认配置文件为server_conf.json，与server应用同目录，执行server即可。  
+>	
 1、client端  
-
-	下载对应的操作系统支持的client程序，默认配置文件为client_conf.json，与client应用同目录，执行client即可。  
-   
+>
+>下载对应的操作系统支持的client程序，默认配置文件为client_conf.json，与client应用同目录，执行client即可。  
+>  
 ## 特性和核心功能清单
 
 
