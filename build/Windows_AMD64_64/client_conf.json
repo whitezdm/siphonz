@@ -1,9 +1,9 @@
 {
-    "client": {
-        "id": "5f092b7ca8ccd2992cde0817ed0b7e66",
-        "password": "123456"
+    "client": {                                    //client的定义，包括一些参数等
+        "id": "5f092b7ca8ccd2992cde0817ed0b7e66",  //client的id
+        "password": "123456"                       //client的密码
     },
-    "server": {
-        "address": "127.0.0.1:6200"
+    "server": {                                    //登录server的定义，包括一些参数等
+        "address": "127.0.0.1:6200"                //登录的server的地址，支持ipv4和ipv6
     }
 }
