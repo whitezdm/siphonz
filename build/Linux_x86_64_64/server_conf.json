@@ -1,0 +1,32 @@
+{
+    "server": {
+        "tcp": {
+            "srv0": {
+                "listen": [
+                    "6100", "[::]:6100"
+                ],
+                "routes": [{
+                        "handler": "routes",
+                        "routes": [{
+                                "handler": "tunnel_proxy",
+                                "client": "5f092b7ca8ccd2992cde0817ed0b7e66",
+                                "address": "127.0.0.1:80"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "access": {
+        "listen": [
+            "6200", "[::]:6200"
+        ],
+        "client": {
+            "5f092b7ca8ccd2992cde0817ed0b7e66": {
+                "valid": true,
+                "password": "123456"
+            }
+        }
+    }
+}
