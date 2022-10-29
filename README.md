@@ -20,7 +20,7 @@ Siphonz是一个功能强大的隧道代理服务器，可以将提供各种内�
 > 3、小型企业低成本部署企业产品与服务。  
 >
 > 4、现有企业内部系统上云，或与云上系统互动等。  
->
+
 ## 原理图
 下图是反向代理服务器的原理图，如nginx等：  
 ![image](https://github.com/whitezdm/siphon/blob/main/assets/reverse_proxy.png)  
@@ -37,7 +37,7 @@ Siphonz是一个功能强大的隧道代理服务器，可以将提供各种内�
 
 ## 简单入门使用
 
->首先我们需要有一台能够外网访问的服务器，作为我们访问的入口server端，其他的在任何位置，可以访问到server端的设备都可以作为client端来转发服务。
+>首先我们需要有一台能够外网访问的服务器，作为我们访问的入口server端，其他的在任何位置，可以访问到server端的设备都可以作为client端来转发服务。 
 1、server端  
 >	
 >下载对应的操作系统支持的server程序，默认配置文件为server_conf.json，与server应用同目录，执行server即可。  
@@ -54,7 +54,7 @@ Siphonz是一个功能强大的隧道代理服务器，可以将提供各种内�
 server_conf.json
 
 {
-    "server": {                                    //server节点定义，对外提供的各种服务，如tcp、http等
+    "server": {                                    //server节点定义，对外提供的各种服务，如tcp、http、udp等
         "tcp": {                                   //tcp定义一个tcp类型的服务，可以定义多个tcp服务
             "srv0": {                              //tcp服务的名称
                 "listen": [                        //服务监听的端口，支持ipv4和ipv6
