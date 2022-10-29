@@ -113,7 +113,7 @@ Java | 《深入理解 Java 虚拟机》
 ## 支持平台与形式
 操作系统 | CPU | 位数 | 支持 | 版本
 :---: | :---: | :---: | :---: | :---:
-Android | 《第一行代码》 <br> 《Android 开发艺术探索》
+windows | x86_64 | 64 | 支持 | build/Windows_AMD64_64
 Java | 《深入理解 Java 虚拟机》
 
 
