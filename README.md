@@ -111,25 +111,18 @@ Android | 《第一行代码》 <br> 《Android 开发艺术探索》
 Java | 《深入理解 Java 虚拟机》
 
 ## 支持平台与形式
-操作系统 | CPU | 位数 | 支持 | 版本
+操作系统 | CPU | 位数 | 支持 | 目录
 :---: | :---: | :---: | :---: | :---:
 windows | x86_64 | 64 | 支持 | build/Windows_AMD64_64
-Java | 《深入理解 Java 虚拟机》
+windows | x86_64 | 32 | 待支持 | 
+windows | arm | 64 | 待支持 | 
+linux | x86_64 | 64 | 支持 | build/Linux_x86_64_64
+linux | x86_64 | 32 | 待支持 | 
+linux | arm | 64 | 待支持 | 
+linux | arm | 32 | 待支持 | 
+macos | x86_64 | 64 | 支持 | build/Darwin_x86_64_64
+macos | arm | 64 | 待支持 | 
 
-
-
-
-
-	|  操作系统   |  CPU   | 位数  | 支持  |            版本        |
-	|-------------|--------|-------|-------|------------------------|
-	|   windows   | x86_64 |  64   |  是   | build/Windows_AMD64_64 |
-	|   windows   | x86_64 |  32   |待支持 |                        |
-	|   linux     | x86_64 |  64   |  是   | build/Linux_x86_64_64  |
-	|   linux     | x86_64 |  32   |待支持 |                        |
-	|   linux     |  arm   |  64   |待支持 |  	                    |        
-	|   macos     | x86_64 |  64   |待支持 |  	                    |
-	|   macos     |  arm   |  64   |待支持 |  	                    |
-	
 	
 ## 其他
 开发语言为c++&c混合。原则上各种平台是都OK的。  
